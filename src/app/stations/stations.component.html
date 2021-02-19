@@ -1,0 +1,11 @@
+<h2>Stations</h2>
+
+<ul class="stations">
+  <li *ngFor="let station of stations"
+    [class.selected]="station === selectedStation"
+    (click)="onSelect(station)">
+    <span class="badge">{{station.id}}</span> {{station.name}}
+  </li>
+</ul>
+
+<app-station-detail [station]="selectedStation"></app-station-detail>

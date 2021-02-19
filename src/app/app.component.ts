@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'numerical-assessment';
+  title = 'Numerical MBTA Assesment';
 }
